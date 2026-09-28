@@ -1,0 +1,52 @@
+[
+    {
+        "patient_id": "P001",
+        "symptoms": "high fever and persistent vomiting",
+        "age": 28
+    },
+    {
+        "patient_id": "P002",
+        "symptoms": "mild headache and tiredness",
+        "age": 34
+    },
+    {
+        "patient_id": "P003",
+        "symptoms": "difficulty breathing and chest pain",
+        "age": 61
+    },
+    {
+        "patient_id": "P004",
+        "symptoms": "sore throat and mild cough",
+        "age": 19
+    },
+    {
+        "patient_id": "P005",
+        "symptoms": "severe pain and persistent vomiting",
+        "age": 45
+    },
+    {
+        "patient_id": "P006",
+        "symptoms": "runny nose and mild headache",
+        "age": 22
+    },
+    {
+        "patient_id": "P007",
+        "symptoms": "high fever and severe pain",
+        "age": 38
+    },
+    {
+        "patient_id": "P008",
+        "symptoms": "mild cough and tiredness",
+        "age": 52
+    },
+    {
+        "patient_id": "P009",
+        "symptoms": "severe bleeding after an accident",
+        "age": 31
+    },
+    {
+        "patient_id": "P010",
+        "symptoms": "headache and mild sore throat",
+        "age": 26
+    }
+]

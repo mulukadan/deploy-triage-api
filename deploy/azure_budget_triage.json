@@ -1,0 +1,40 @@
+{
+    "properties": {
+        "category": "Cost",
+        "amount": 50,
+        "timeGrain": "Monthly",
+        "timePeriod": {
+            "startDate": "2026-09-01T00:00:00Z",
+            "endDate": "2027-09-01T00:00:00Z"
+        },
+        "filter": {
+            "tags": {
+                "name": "service",
+                "operator": "In",
+                "values": [
+                    "afyaplus-triage"
+                ]
+            }
+        },
+        "notifications": {
+            "Actual_GreaterThan_80_Percent": {
+                "enabled": true,
+                "operator": "GreaterThan",
+                "threshold": 80,
+                "thresholdType": "Actual",
+                "contactEmails": [
+                    "replace-with-your-email@example.com"
+                ]
+            },
+            "Actual_GreaterThan_100_Percent": {
+                "enabled": true,
+                "operator": "GreaterThan",
+                "threshold": 100,
+                "thresholdType": "Actual",
+                "contactEmails": [
+                    "replace-with-your-email@example.com"
+                ]
+            }
+        }
+    }
+}
